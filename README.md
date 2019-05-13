@@ -8,7 +8,7 @@ This project gives following features-
 		*GET http://localhost:8081/kafka/topics/topic1/messages
 
 
-#How to connect Google Cloud VM Kafka via External IP over public internet
+# How to connect Google Cloud VM Kafka via External IP over public internet
 
 Follow below steps-
 
