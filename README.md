@@ -25,7 +25,7 @@ Follow below steps-
 6. Now SSH to the VM instance. And go to /opt/kafka/config
 7. Edit server.properties, and do following changes-
 	-Uncomment and set the property "listeners=PLAINTEXT://:9092"
-	-Uncomment and set the property "advertised.listeners=PLAINTEST:EXTERNAL-IP-OF-KAFKA-VM:9092".  Put the EXTERNAL IP of your KAFKA VM in this property value.
+	-Uncomment and set the property "advertised.listeners=PLAINTEXT:external-ip-of-kafka-vm:9092".  Put the EXTERNAL IP of your KAFKA VM in this property value.
 8. Save the server.properties file.	
 8. run command -systemctl restart kafka
 9. run command -systemctl status kafka
